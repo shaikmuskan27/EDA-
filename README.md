@@ -1,4 +1,4 @@
-# ydata-profiling
+# ydata-profiling (EDA)
 
 [![Build Status](https://github.com/ydataai/pandas-profiling/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/ydataai/pandas-profiling/actions/workflows/tests.yml)
 [![PyPI download month](https://img.shields.io/pypi/dm/ydata-profiling.svg)](https://pypi.python.org/pypi/ydata-profiling/)
@@ -32,6 +32,101 @@ The package outputs a simple and digested analysis of a dataset, including **tim
 
 > **Looking for a scalable solution that can fully integrate with your database systems?**<br>
 > Leverage YData Fabric Data Catalog to connect to different databases and storages (Oracle, snowflake, PostGreSQL, GCS, S3, etc.) and leverage an interactive and guided profiling experience in Fabric. Check out the [Community Version](http://ydata.ai/register?utm_source=ydata-profiling&utm_medium=documentation&utm_campaign=YData%20Fabric%20Community).
+# EDA- 📊  
+**Exploratory Data Analysis Toolkit**
+
+EDA- is a comprehensive exploratory data analysis (EDA) toolkit built to simplify, automate, and enhance data understanding. It helps data scientists, analysts, and students quickly generate meaningful insights, statistics, and visual summaries from datasets with minimal effort.
+
+---
+
+## 🚀 Features
+
+- Automated exploratory data analysis
+- Detailed statistical summaries
+- Data quality checks (missing values, duplicates, correlations)
+- Interactive and static visualizations
+- Support for pandas DataFrames
+- Scalable for small and large datasets
+
+---
+
+## 🧠 Why EDA-?
+
+Exploratory Data Analysis is a critical first step in any data science or machine learning workflow.  
+EDA- helps you:
+
+- Understand dataset structure quickly  
+- Detect anomalies and data quality issues  
+- Identify patterns and relationships  
+- Save time with automated reporting  
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/shaikmuskan27/EDA-.git
+cd EDA-
+Install dependencies:
+
+pip install -r requirements.txt
+or using Poetry:
+
+poetry install
+🛠 Usage
+Basic example using pandas:
+
+import pandas as pd
+from ydata_profiling import ProfileReport
+
+df = pd.read_csv("data.csv")
+profile = ProfileReport(df, title="EDA Report")
+profile.to_file("eda_report.html")
+This generates an interactive HTML EDA report.
+
+📁 Project Structure
+EDA-
+│── src/                # Core source code
+│── examples/           # Example datasets and usage
+│── docs/               # Documentation
+│── README.md           # Project documentation
+│── LICENSE             # License file
+│── pyproject.toml      # Project configuration
+🎯 Use Cases
+Data preprocessing for ML projects
+
+Academic & college projects
+
+Quick dataset inspection
+
+Data quality assessment
+
+Research & analytics workflows
+
+🧑‍💻 Maintainer
+Muskan Shaik
+GitHub: shaikmuskan27
+
+📜 License
+This project is distributed under the terms of the included LICENSE file.
+Please review it before redistribution or commercial use.
+
+⭐ Acknowledgements
+This project is built upon and inspired by open-source data profiling tools.
+Grateful to the open-source community for making data science accessible.
+
+
+---
+
+## ✅ Next recommended steps (very important)
+1. Replace your existing `README.md` with this content  
+2. Commit & push:
+```powershell
+git add README.md
+git commit -m "Update README with project overview"
+git push
 
 ## ▶️ Quickstart
 
