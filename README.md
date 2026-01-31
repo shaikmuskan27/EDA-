@@ -8,30 +8,6 @@
 [![Python Version](https://img.shields.io/pypi/pyversions/ydata-profiling)](https://pypi.org/project/ydata-profiling/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 <img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=cb7e69df-af81-4352-809a-d4251756affc" />
-
-<p align="center"><img width="300" src="https://assets.ydata.ai/oss/ydata-profiling_black.png" alt="YData Profiling Logo"></p>
-
-<p align="center">
-  <a href="https://ydata-profiling.ydata.ai/docs/master/">Documentation</a>
-  |
-  <a href="https://tiny.ydata.ai/dcai-ydata-profiling">Discord</a>
-  | 
-  <a href="https://stackoverflow.com/questions/tagged/pandas-profiling+or+ydata-profiling">Stack Overflow</a>
-  |
-  <a href="https://ydata-profiling.ydata.ai/docs/master/pages/reference/changelog.html#changelog">Latest changelog</a>
-
-</p>
-
-<p align="center">
-  Do you like this project? Show us your love and <a href="https://engage.ydata.ai">give feedback!</a>
-</p>
-
-`ydata-profiling` primary goal is to provide a one-line Exploratory Data Analysis (EDA) experience in a consistent and fast solution. Like pandas `df.describe()` function, that is so handy, ydata-profiling delivers an extended analysis of a DataFrame while allowing the data analysis to be exported in different formats such as **html** and **json**.
-
-The package outputs a simple and digested analysis of a dataset, including **time-series** and **text**.
-
-> **Looking for a scalable solution that can fully integrate with your database systems?**<br>
-> Leverage YData Fabric Data Catalog to connect to different databases and storages (Oracle, snowflake, PostGreSQL, GCS, S3, etc.) and leverage an interactive and guided profiling experience in Fabric. Check out the [Community Version](http://ydata.ai/register?utm_source=ydata-profiling&utm_medium=documentation&utm_campaign=YData%20Fabric%20Community).
 # EDA- 📊  
 **Exploratory Data Analysis Toolkit**
 
